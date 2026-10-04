@@ -1,0 +1,117 @@
+/* ---------- Reset ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------- Page ---------- */
+
+body {
+    min-height: 100vh;
+
+    background: linear-gradient(
+        to bottom,
+        #f8f4e9 0%,
+        #f8f4e9 60%,
+        #d8cfc1 78%,
+        #594e44 100%
+    );
+
+    background-attachment: fixed;
+}
+
+
+/* ---------- Main logo area ---------- */
+
+.hero {
+    width: min(92vw, 1050px);
+}
+
+
+/* ---------- Hero layout ---------- */
+
+.brand-row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+   
+}
+.pagoda-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 18vh;
+}
+
+/* ---------- Pagoda ---------- */
+
+.pagoda {
+    width: clamp(385px, 39vw, 550px);
+    height: auto;
+    flex-shrink: 0;
+
+
+}
+
+/* ---------- K-tai ---------- */
+
+.ktai {
+    width: 800px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.ktai-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slogan {
+    margin-top: 10px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia, serif;
+    color: #1a1714;
+}
+
+/* Meet the Pack */
+
+.construction-page {
+    width: 100%;
+    text-align: center;
+}
+
+.construction-image {
+    width: min(90vw, 1200px);
+    height: auto;
+    margin-top: 60px;
+}
+
+.dogs-life-image {
+    width: min(80vw, 1000px);
+}
+
+.building-title {
+    margin-top: -50px;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: #1a1714;
+}
+
+.dogs-life-title {
+    margin-top: 20px;
+}
+
+.building-tagline {
+    margin-top: 6px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #594e44;
+}
