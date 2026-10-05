@@ -115,3 +115,53 @@ body {
     font-style: italic;
     color: #594e44;
 }
+.about-page {
+    width: min(92%, 1050px);
+    margin: 0 auto;
+    padding: 35px 0 25px;
+}
+
+.about-columns {
+    display: flex;
+    gap: 50px;
+}
+
+.about-column {
+    flex: 1;
+}
+
+.blondie-signature img {
+    
+    width: 55px;
+    height: auto;
+}
+
+.blondie-signature {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.registration {
+    margin-top: 25px;
+}
+
+.about-page h1 {
+    margin-bottom: 8px;
+}
+
+.bottom-section {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-page {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.boardroom-image {
+    width: min(96vw, 1350px);
+    height: 380px;
+    object-fit: fill;
+}
