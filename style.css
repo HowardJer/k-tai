@@ -28,6 +28,7 @@ body {
 
 .hero {
     width: min(92vw, 1050px);
+
 }
 
 
@@ -266,4 +267,56 @@ body {
 
 .team-bio h3 {
     margin-top: 3px;
+}
+
+.team-title {
+    font-size: 0.8em;
+}
+
+.site-menu {
+    margin-top: 45px;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+}
+
+
+.site-menu a {
+    color: #f3e5c0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site-menu a {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.site-menu a:hover {
+    transform: scale(1.08);
+}
+
+.site-menu span {
+    color: #f3e5c0;
+}
+
+.hero .site-menu {
+    position: relative;
+    left: 50vw;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+.hero .site-menu {
+    margin-top: 120px;
+    position: relative;
+    left: 50vw;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+/* ---------- About Page Menu ---------- */
+
+.about-page .site-menu {
+    margin-top: 160px;
 }
