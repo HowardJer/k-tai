@@ -1,7 +1,7 @@
 const petName = document.getElementById("pet-name");
 const registerButton = document.getElementById("register-button");
 
-
+if (petName && registerButton) {
 petName.addEventListener("input", function () {
     registerButton.classList.remove("bump");
 
@@ -9,6 +9,7 @@ petName.addEventListener("input", function () {
 
     registerButton.classList.add("bump");
 });
+
 
 registerButton.addEventListener("click", function () {
     const name = petName.value.trim();
@@ -41,4 +42,13 @@ function launchConfetti() {
             confetti.remove();
         }, 3000);
     }
+}
+}
+const mobileMenuButton = document.querySelector(".mobile-menu-button");
+const mobileMenu = document.querySelector(".mobile-menu");
+
+if (mobileMenuButton && mobileMenu) {
+    mobileMenuButton.addEventListener("click", function () {
+        mobileMenu.classList.toggle("open");
+    });
 }

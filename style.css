@@ -320,3 +320,125 @@ body {
 .about-page .site-menu {
     margin-top: 160px;
 }
+
+/* ---------- Mobile ---------- */
+
+.mobile-menu-button,
+.mobile-menu {
+    display: none;
+}
+@media (max-width: 600px) {
+
+    .hero {
+        width: 100%;
+    }
+
+    .brand-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .pagoda-block {
+        margin-top: 25px;
+    }
+
+    .pagoda {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .ktai {
+        width: 92%;
+        max-width: 345px;
+    }
+
+    .slogan {
+        font-size: 20px;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+        .site-menu {
+        display: none;
+    }
+
+    .mobile-menu-button {
+        display: block;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 1001;
+        font-size: 28px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        color: #1a1714;
+    }
+
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 55px;
+        right: 15px;
+        z-index: 1000;
+        padding: 15px 20px;
+        background: #f8f4e9;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    .mobile-menu a {
+        display: block;
+        padding: 7px 0;
+        color: #1a1714;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .mobile-menu.open {
+        display: block;
+    }
+
+      .about-columns {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-page {
+        width: 90%;
+        padding-top: 25px;
+    }
+
+        .registration {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+    }
+
+   .register-button {
+    padding: 6px 12px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.building-title {
+    margin-top: 5px;
+    font-size: 28px;
+}
+
+    .boardroom-image {
+        width: 94%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .team-profiles {
+        display: block;
+        width: 88%;
+        margin: 25px auto 0;
+    }
+
+    .team-bio {
+        margin-bottom: 28px;
+    }
+
+}
